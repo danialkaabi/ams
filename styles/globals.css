@@ -164,11 +164,10 @@ button {
 }
 
 .partner-logo {
-  height: 34px;
-  width: auto;
-  max-width: 160px;
+  height: 56px;
+  width: 140px;
   object-fit: contain;
-  object-position: left;
+  object-position: left center;
   margin-bottom: 18px;
 }
 
@@ -194,9 +193,10 @@ button {
 }
 
 .partner-strip-logos img {
-  height: 36px;
-  width: auto;
+  height: 52px;
+  width: 130px;
   object-fit: contain;
+  object-position: left center;
 }
 
 /* ---------- Buttons ---------- */
@@ -1088,7 +1088,7 @@ footer.site-foot {
 }
 
 .foot-brand img {
-  height: 36px;
+  height: 64px;
   filter: brightness(0) invert(1);
 }
 
