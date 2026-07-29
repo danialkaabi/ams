@@ -28,7 +28,6 @@ export default function Home() {
             <source src="/videos/halul-berthing.mp4" type="video/mp4" />
           </video>
         </div>
-        <span className="video-caption">AI-generated concept visualization</span>
         <div className="wrap hero-inner">
           <span className="eyebrow">Al Annabi Marine Services · Qatar</span>
           <h1>Delivering on a vision for Qatar&rsquo;s maritime future</h1>

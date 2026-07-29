@@ -424,22 +424,6 @@ header.site-head {
   object-fit: cover;
 }
 
-.video-caption {
-  position: absolute;
-  z-index: 2;
-  right: 20px;
-  top: 20px;
-  padding: 5px 12px;
-  border-radius: 999px;
-  background: rgba(38, 10, 16, 0.55);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  color: rgba(255, 255, 255, 0.75);
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.04em;
-}
-
 .hero-inner {
   position: relative;
   z-index: 2;
