@@ -1,5 +1,11 @@
 import Layout from '@/components/Layout';
 
+const GALLERY = [
+  { name: 'AMS Laffan 4', img: '/images/vessels/ams-laffan-4.jpg' },
+  { name: 'AMS Najam', img: '/images/vessels/ams-najam.jpg' },
+  { name: 'AMS Al Wakra 1', img: '/images/vessels/ams-al-wakra-1.jpg' },
+];
+
 const FLEET = [
   {
     tag: 'Tugs',
@@ -64,7 +70,7 @@ export default function Services() {
       description="AMS fleet and services — tugs, PSVs, MPSVs and FSIVs supporting offshore energy, port operations, and LNG loading/unloading across Qatar."
     >
       <section className="page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('/images/doha-skyline.jpg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/images/vessels/ams-khattaf.jpg')" }} />
         <div className="wrap">
           <span className="eyebrow">What We Do</span>
           <h1>A fleet built for Qatar&rsquo;s energy expansion</h1>
@@ -154,6 +160,23 @@ export default function Services() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="section white">
+        <div className="wrap">
+          <div className="section-head" data-reveal="0">
+            <span className="mono">Our Fleet</span>
+            <h2>Vessels on the water in Doha</h2>
+          </div>
+          <div className="gallery-grid">
+            {GALLERY.map((v, i) => (
+              <div className="gallery-card" key={v.name} data-reveal={String((i % 4) + 1)}>
+                <img src={v.img} alt={v.name} />
+                <span className="cap">{v.name}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>

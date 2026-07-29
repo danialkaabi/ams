@@ -14,7 +14,7 @@ export default function About() {
       description="AMS is a joint venture between Sea Horizon Offshore Marine Services (SHM) and Adani Harbour Services, established to support Qatar National Vision 2030."
     >
       <section className="page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('/images/doha-skyline.jpg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/images/vessels/ams-laffan-1.jpg')" }} />
         <div className="wrap">
           <span className="eyebrow">About AMS</span>
           <h1>Formed for the long-term. Built for Qatar.</h1>

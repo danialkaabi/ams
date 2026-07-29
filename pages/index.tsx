@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <section className="hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('/images/doha-skyline.jpg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/images/vessels/ams-laffan-3.jpg')" }} />
         <div className="wrap hero-inner">
           <span className="eyebrow">Al Annabi Marine Services · Qatar</span>
           <h1>Delivering on a vision for Qatar&rsquo;s maritime future</h1>

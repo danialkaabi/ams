@@ -38,12 +38,9 @@ npm run start
 2. Click **Add New → Project**, import this repository, and deploy — no
    environment variables required.
 
-## Images to swap in
+## Images
 
-`public/images/doha-skyline.jpg` is currently a generic stock photo used
-as a placeholder hero/section background. Real AMS vessel photography
-(e.g. AMS Laffan 1/3/4, AMS Najam, AMS Al Wakra 2, AMS Khattaf, LNG
-carrier operations) should replace it — drop the files into
-`public/images/` and update the `backgroundImage` references in
-`pages/index.tsx`, `pages/about.tsx`, `pages/services.tsx`, and
-`pages/hse.tsx`.
+Real AMS vessel photography lives in `public/images/vessels/` (AMS Laffan
+1/2/3/4, AMS Najam, AMS Al Wakra 1, AMS Khattaf) and is used across page
+hero backgrounds and the fleet gallery on `/services`. Leadership
+headshots and the logo are in `public/images/`.

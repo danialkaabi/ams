@@ -17,7 +17,7 @@ export default function HSE() {
       description="AMS's commitment to Health, Safety & Environment — an Integrated Management System aligned with ISM 2017 and ISO best practice."
     >
       <section className="page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('/images/doha-skyline.jpg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/images/vessels/ams-laffan-2.jpg')" }} />
         <div className="wrap">
           <span className="eyebrow">Safety First</span>
           <h1>Our unwavering commitment to HSE</h1>
