@@ -135,7 +135,12 @@ export default function Services() {
               <p style={{ color: 'var(--ink-soft)' }}>
                 Relentlessly supporting Qatar&rsquo;s port activities, especially the strategic
                 expansion and development of the main port in Ras Laffan Industrial City, is a key
-                long-term strategy of AMS.
+                long-term strategy of AMS. With its shareholders&rsquo; support, AMS is confident it
+                will deliver on this promise by harnessing the depth of experience, skills and
+                knowledge of its management, as well as by deploying its global access to
+                resources — equipment and personnel — in an integrated approach to ensure robust,
+                customized solutions designed to cater to Qatar&rsquo;s port development plans. AMS
+                aims to play a key role in all critical port activities for QatarEnergy, such as:
               </p>
             </div>
             <ul>
@@ -149,10 +154,14 @@ export default function Services() {
             <div>
               <span className="mono">03 — LNG</span>
               <h3>LNG loading &amp; unloading</h3>
-              <p style={{ color: 'var(--ink-soft)' }}>
-                AMS deploys years of global experience to support QatarEnergy&rsquo;s vital LNG
-                operations — supplying assist tugs and utility vessels, including a focus on Halul
-                Island operations, with optimized design for zero-downtime performance.
+              <p style={{ color: 'var(--ink-soft)', marginBottom: 14 }}>
+                AMS will deploy years of global experience and knowledge to support QatarEnergy
+                with its vital LNG operations. AMS will supply assist tugs and utility vessels to
+                ensure QatarEnergy&rsquo;s LNG support operations are carried out in a safe and
+                reliable environment, including a focus on Halul Island operations. The tugs and
+                utility vessels AMS will deliver for these highly specialized operations will have
+                an optimized design to operate in the required conditions and support with a
+                range of services such as:
               </p>
             </div>
             <ul>
@@ -161,6 +170,11 @@ export default function Services() {
               ))}
             </ul>
           </div>
+          <p style={{ color: 'var(--ink-soft)', maxWidth: 760, marginTop: 8 }} data-reveal="3">
+            In addition to the specially designed new build vessels, the highly experienced crew
+            and support base will ensure operations are conducted with careful planning to ensure
+            zero downtime.
+          </p>
         </div>
       </section>
 

@@ -73,42 +73,137 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section white">
         <div className="wrap">
-          <div className="grid-2" style={{ alignItems: 'start' }}>
-            <div data-reveal="0">
-              <span className="mono" style={{ color: 'var(--maroon)', display: 'block', marginBottom: 16 }}>
-                Sea Horizon Offshore Marine Services
-              </span>
-              <h2 style={{ fontSize: '1.7rem', marginBottom: 18 }}>50+ years of Middle East maritime experience</h2>
-              <p style={{ color: 'var(--ink-soft)', marginBottom: 16 }}>
-                With over 50 years of trusted experience in the Middle East maritime sector, Sea
-                Horizon Offshore Marine Services W.L.L. (SHM) was headquartered in Qatar in 2022
-                and has since supported Qatar&rsquo;s maritime sector and the wider Arabian Gulf —
-                from marine vessels to consultancy services.
-              </p>
-              <p style={{ color: 'var(--ink-soft)' }}>
-                As a proudly Qatari-owned enterprise, SHM&rsquo;s mission has always been to be the
-                reliable partner of choice for state operators — QatarEnergy, QatarEnergy LNG,
-                North Oil Company — and overseas organizations building a long-term base to
-                support Qatar&rsquo;s ecosystem.
+          <div className="section-head" data-reveal="0">
+            <span className="mono">Sea Horizon Offshore Marine Services</span>
+            <h2>50+ years of Middle East maritime experience</h2>
+          </div>
+          <div className="grid-2" data-reveal="1">
+            <p style={{ color: 'var(--ink-soft)' }}>
+              With over 50 years of trusted experience in the Middle East maritime sector, Sea
+              Horizon Offshore Marine Services W.L.L. (SHM) was headquartered in Qatar in 2022 and
+              has since supported Qatar&rsquo;s maritime sector and the rest of the Arabian Gulf in
+              various lines from provision of marine vessels to consultancy services. As a proudly
+              Qatari-owned enterprise, SHM&rsquo;s mission has always been to be the reliable partner
+              of choice for both state operators (such as QatarEnergy, QatarEnergy LNG, North Oil
+              Company) and overseas organizations that are ready to establish a long-term base to
+              support and develop the ecosystem in Qatar.
+            </p>
+            <p style={{ color: 'var(--ink-soft)' }}>
+              Upholding this vision, SHM aims to be one of the trusted and go-to maritime services
+              providers for the energy market in Qatar and the wider Middle East. As a ship owner,
+              charterer, customized solutions and consultancy services provider, SHM is fully
+              versed and experienced with the local requirements of operating marine assets with
+              the required shore base support — delivering trust and reliability in a safe working
+              environment.
+            </p>
+          </div>
+          <div className="grid-2" style={{ marginTop: 48 }}>
+            <div data-reveal="2">
+              <h3 style={{ fontSize: '1.15rem', marginBottom: 12 }}>An emerging player</h3>
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem' }}>
+                In less than half a decade, SHM has provided numerous support services to the
+                offshore sector in Qatar, from critical offshore vessel logistics management to
+                critical consultancy and survey services. Since founding its headquarters in
+                Qatar, SHM has grown its presence milestone by milestone in the region and
+                continues to play an impactful role in developing the local supply chain and
+                economy of Qatar. More recently, SHM has created formidable partnerships in Qatar
+                and the Middle East that continue to propel the company into a dynamic maritime
+                services provider with a differentiated and unique offering to the energy sector.
               </p>
             </div>
-            <div data-reveal="1">
-              <span className="mono" style={{ color: 'var(--maroon)', display: 'block', marginBottom: 16 }}>
-                Adani Group
-              </span>
-              <h2 style={{ fontSize: '1.7rem', marginBottom: 18 }}>A global marine services ecosystem</h2>
-              <p style={{ color: 'var(--ink-soft)', marginBottom: 16 }}>
-                The Adani Group is one of India&rsquo;s largest and most diversified conglomerates,
-                with a market capitalization exceeding USD 125 billion. Its flagship, Adani Ports
-                and Special Economic Zone (APSEZ), owns and operates 14 ports across India with a
-                combined capacity of over 535 million metric tons.
+            <div data-reveal="3">
+              <h3 style={{ fontSize: '1.15rem', marginBottom: 12 }}>Building partnerships to create success</h3>
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem', marginBottom: 14 }}>
+                A core, founding pillar of SHM has been to create strong partnerships with
+                regional and international players holding an array of expertise in order to
+                create avenues that bring joint success to all stakeholders — SHM, its trusted
+                partners, and most importantly the operators focused on meeting the long-term
+                goals of the State of Qatar.
               </p>
-              <p style={{ color: 'var(--ink-soft)' }}>
-                With a fleet of over 220 owned vessels — tugs, pilot boats, dredgers, jack-up
-                barges, and offshore support vessels — Adani brings pilotage, harbour towage,
-                diving and ROV, and dredging expertise built over two decades of global operation.
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem' }}>
+                Following on this strong ambition, SHM has in a short time built a path with its
+                partners that will form an inspiring cornerstone for future generations that aim
+                to utilize their creativity with a focused mindset to achieve the impossible — a
+                huge growth spurt attained by joining hands with some of the most recognized
+                players of the industry to support the energy sector of Qatar and the wider
+                Middle East through legacy long-term contracts and exclusive representations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <div className="section-head" data-reveal="0">
+            <span className="mono">Adani Group</span>
+            <h2>A global marine services ecosystem</h2>
+          </div>
+          <div className="grid-2" data-reveal="1">
+            <p style={{ color: 'var(--ink-soft)' }}>
+              The Adani Group is one of India&rsquo;s largest and most diversified conglomerates,
+              with a commanding presence across key infrastructure sectors including ports,
+              airports, roads, renewable energy, oil &amp; gas, and mining. Operating across Asia,
+              Australia, the Middle East, Africa, and the Americas, the group boasts a market
+              capitalization exceeding USD 125 billion, reflecting its global scale and strategic
+              vision.
+            </p>
+            <p style={{ color: 'var(--ink-soft)' }}>
+              At the heart of Adani&rsquo;s infrastructure operations is Adani Ports and Special
+              Economic Zone (APSEZ), the flagship company of the group. APSEZ owns and operates 14
+              ports across India, with a combined capacity of over 535 million metric tons (MMT)
+              and having handled more than 400 MMT of cargo in FY-24. The company&rsquo;s expertise
+              spans a wide range of cargo types including containers, dry bulk, LPG, LNG, cement,
+              POL, automobiles, and project cargoes.
+            </p>
+          </div>
+          <div className="grid-2" style={{ marginTop: 48 }}>
+            <div data-reveal="2">
+              <h3 style={{ fontSize: '1.15rem', marginBottom: 12 }}>Marine services capability</h3>
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem', marginBottom: 14 }}>
+                The Adani Group has developed a formidable marine services ecosystem that
+                integrates harbour, offshore, and dredging operations under a unified framework.
+                This integrated approach enables the group to offer end-to-end maritime solutions
+                that are both scalable and tailored to the diverse needs of global clients. With a
+                fleet of over 220 owned vessels — including high-capacity tugs, pilot boats,
+                mooring crafts, dredgers, jack-up barges, flat-top barges, and offshore support
+                vessels such as AHTS, PSVs, and work boats — Adani is equipped to handle complex
+                marine operations across ports and offshore environments.
+              </p>
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem' }}>
+                The group&rsquo;s service portfolio is comprehensive and includes pilotage, harbour
+                towage, mooring, offshore support services, diving and ROV operations, pipe laying
+                assistance, well simulation support, FPSO and SBM operations, and both capital and
+                maintenance dredging. These services are supported by robust infrastructure and a
+                highly trained workforce, ensuring safe, efficient, and reliable execution. With an
+                additional 20 vessels under construction, Adani continues to invest in fleet
+                modernization and global expansion, reinforcing its commitment to delivering
+                world-class marine services.
+              </p>
+            </div>
+            <div data-reveal="3">
+              <h3 style={{ fontSize: '1.15rem', marginBottom: 12 }}>Global experience and expertise</h3>
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem', marginBottom: 14 }}>
+                With over two decades of operational excellence, the group has established itself
+                as a trusted provider of comprehensive marine services across global markets. Its
+                offerings span full-spectrum port operations, offshore support, and dredging
+                solutions — delivered with precision, safety, and a customer-centric approach. The
+                group has pioneered marine services at LNG terminals, demonstrating consistent
+                performance in challenging environments with high tidal ranges, strong currents,
+                and adverse weather conditions. In the offshore sector, it has executed complex
+                projects including subsea maintenance, pipe laying, diving, and ROV operations,
+                supported by a modern fleet deployed across key energy markets. Its dredging
+                capabilities cover capital and maintenance works for ports, power plants, and
+                inland waterways, along with land reclamation and industrial channel development.
+              </p>
+              <p style={{ color: 'var(--ink-soft)', fontSize: '0.96rem' }}>
+                Backed by a trained workforce of marine professionals and advanced digital systems
+                for real-time operational insights, the Adani Group ensures safe, efficient, and
+                sustainable service delivery. All operations adhere to globally recognized QHSE
+                standards, reinforcing its commitment to quality, safety, and environmental
+                governance.
               </p>
             </div>
           </div>
