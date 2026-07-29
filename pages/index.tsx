@@ -1,11 +1,34 @@
 import Link from 'next/link';
+import { useEffect, useRef } from 'react';
 import Layout from '@/components/Layout';
 
 export default function Home() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      videoRef.current?.pause();
+    }
+  }, []);
+
   return (
     <Layout>
       <section className="hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('/images/vessels/ams-laffan-3.jpg')" }} />
+        <div className="hero-bg hero-video">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster="/images/hero-poster.jpg"
+          >
+            <source src="/videos/halul-berthing.webm" type="video/webm" />
+            <source src="/videos/halul-berthing.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <span className="video-caption">AI-generated concept visualization</span>
         <div className="wrap hero-inner">
           <span className="eyebrow">Al Annabi Marine Services · Qatar</span>
           <h1>Delivering on a vision for Qatar&rsquo;s maritime future</h1>
