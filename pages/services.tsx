@@ -4,21 +4,21 @@ const FEATURES = [
   {
     chapter: 'Chapter One',
     img: '/images/vessels/ams-laffan-4.jpg',
-    title: 'Guarding the gateway at Ras Laffan',
-    desc: 'Every tanker that berths safely owes something to split-second precision. Under a long-term charter with QatarEnergy, AMS supplies the tug and utility maintenance vessel trusted to make it happen — safeguarding one of the region’s busiest energy gateways.',
+    title: 'Standing watch at Halul Island',
+    desc: 'Qatar’s offshore crude export terminal never stops. Under a long-term charter with QatarEnergy, AMS supplies the tanker berthing assistance tug and utility maintenance vessel that keep tankers berthing safely and Halul Island’s marine infrastructure running around the clock.',
   },
   {
     chapter: 'Chapter Two',
-    img: '/images/vessels/ams-najam.jpg',
-    title: 'Powering two ports at once',
-    desc: 'From Ras Laffan Industrial City to Mesaieed Industrial City, AMS marine craft now form part of the backbone of Qatar’s industrial port network — a long-term charter extending our presence across two of the nation’s most critical maritime hubs.',
+    img: '/images/vessels/ams-al-wakra-1.jpg',
+    title: 'Guarding the gateway at Ras Laffan',
+    desc: 'A dedicated fleet of four ASD tugs, a pilot boat, and a crew boat now serve Ras Laffan Port under a long-term charter with QatarEnergy — the marine backbone behind one of the region’s busiest industrial and energy gateways.',
   },
 ];
 
 const GALLERY = [
   { name: 'AMS Laffan 1', img: '/images/vessels/ams-laffan-1.jpg' },
   { name: 'AMS Laffan 2', img: '/images/vessels/ams-laffan-2.jpg' },
-  { name: 'AMS Al Wakra 1', img: '/images/vessels/ams-al-wakra-1.jpg' },
+  { name: 'AMS Najam', img: '/images/vessels/ams-najam.jpg' },
 ];
 
 const FLEET = [
