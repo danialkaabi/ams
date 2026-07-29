@@ -96,6 +96,13 @@ export default function Home() {
               </li>
             </ul>
           </div>
+          <div className="partner-strip" data-reveal="3">
+            <span className="mono">In Partnership With</span>
+            <div className="partner-strip-logos">
+              <img src="/images/logos/shm.png" alt="Sea Horizon Offshore Marine Services (SHM)" />
+              <img src="/images/logos/adani.png" alt="Adani Group" />
+            </div>
+          </div>
         </div>
       </section>
 

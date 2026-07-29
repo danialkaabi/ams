@@ -76,6 +76,7 @@ export default function About() {
       <section className="section white">
         <div className="wrap">
           <div className="section-head" data-reveal="0">
+            <img src="/images/logos/shm.png" alt="Sea Horizon Offshore Marine Services (SHM)" className="partner-logo" />
             <span className="mono">Sea Horizon Offshore Marine Services</span>
             <h2>50+ years of Middle East maritime experience</h2>
           </div>
@@ -138,6 +139,7 @@ export default function About() {
       <section className="section">
         <div className="wrap">
           <div className="section-head" data-reveal="0">
+            <img src="/images/logos/adani.png" alt="Adani Group" className="partner-logo" />
             <span className="mono">Adani Group</span>
             <h2>A global marine services ecosystem</h2>
           </div>

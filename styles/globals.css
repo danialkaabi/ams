@@ -163,6 +163,42 @@ button {
   color: rgba(255, 255, 255, 0.78);
 }
 
+.partner-logo {
+  height: 34px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  object-position: left;
+  margin-bottom: 18px;
+}
+
+.partner-strip {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.partner-strip .mono {
+  color: var(--ink-soft);
+}
+
+.partner-strip-logos {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.partner-strip-logos img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-flex;
