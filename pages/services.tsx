@@ -1,22 +1,23 @@
 import Layout from '@/components/Layout';
 
-const PROJECTS = [
+const FEATURES = [
   {
-    ref: 'Tender GT24106900',
-    title: 'Charter of Tanker Berthing Assistance Tug & Utility Maintenance Vessel',
-    desc: 'A long-term charter with QatarEnergy to supply a tanker berthing assistance tug and a utility maintenance vessel, supporting safe tanker berthing, unberthing, and utility maintenance operations.',
+    chapter: 'Chapter One',
+    img: '/images/vessels/ams-laffan-4.jpg',
+    title: 'Guarding the gateway at Ras Laffan',
+    desc: 'Every tanker that berths safely owes something to split-second precision. Under a long-term charter with QatarEnergy, AMS supplies the tug and utility maintenance vessel trusted to make it happen — safeguarding one of the region’s busiest energy gateways.',
   },
   {
-    ref: 'Tender GT24110600',
-    title: 'Provision of Marine Vessels for RLIC and MIC Ports',
-    sub: 'Part A — Provision of Marine Crafts for Ras Laffan Port',
-    desc: 'A long-term charter with QatarEnergy to provide marine craft supporting port operations at Ras Laffan Industrial City (RLIC) and Mesaieed Industrial City (MIC) — reinforcing AMS’s role in Qatar’s critical port infrastructure.',
+    chapter: 'Chapter Two',
+    img: '/images/vessels/ams-najam.jpg',
+    title: 'Powering two ports at once',
+    desc: 'From Ras Laffan Industrial City to Mesaieed Industrial City, AMS marine craft now form part of the backbone of Qatar’s industrial port network — a long-term charter extending our presence across two of the nation’s most critical maritime hubs.',
   },
 ];
 
 const GALLERY = [
-  { name: 'AMS Laffan 4', img: '/images/vessels/ams-laffan-4.jpg' },
-  { name: 'AMS Najam', img: '/images/vessels/ams-najam.jpg' },
+  { name: 'AMS Laffan 1', img: '/images/vessels/ams-laffan-1.jpg' },
+  { name: 'AMS Laffan 2', img: '/images/vessels/ams-laffan-2.jpg' },
   { name: 'AMS Al Wakra 1', img: '/images/vessels/ams-al-wakra-1.jpg' },
 ];
 
@@ -99,25 +100,22 @@ export default function Services() {
       <section className="section white">
         <div className="wrap">
           <div className="section-head" data-reveal="0">
-            <span className="mono">Current Engagements</span>
-            <h2>Delivering on award-winning QatarEnergy contracts</h2>
+            <span className="mono">Looking Ahead</span>
+            <h2>Projects that shape Qatar&rsquo;s maritime future</h2>
             <p>
-              AMS has been awarded two long-term charter contracts by QatarEnergy — a direct
-              validation of our strategic joint-venture model and the foundation of our fleet
-              deployment.
+              Two long-term partnerships with QatarEnergy mark the first chapters of a much longer
+              voyage — proof of the trust placed in AMS to deliver where it matters most.
             </p>
           </div>
-          <div className="grid-2">
-            {PROJECTS.map((p, i) => (
-              <div className="card" key={p.ref} data-reveal={String((i % 4) + 1)}>
-                <span className="project-status">Awarded · {p.ref}</span>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: p.sub ? 6 : 12 }}>{p.title}</h3>
-                {p.sub && (
-                  <p style={{ color: 'var(--maroon)', fontSize: '0.85rem', fontWeight: 600, marginBottom: 12 }}>
-                    {p.sub}
-                  </p>
-                )}
-                <p>{p.desc}</p>
+          <div className="feature-grid">
+            {FEATURES.map((f, i) => (
+              <div className="feature-tile" key={f.title} data-reveal={String((i % 4) + 1)}>
+                <div className="hero-bg" style={{ backgroundImage: `url('${f.img}')` }} />
+                <div className="feature-tile-body">
+                  <span className="mono">{f.chapter}</span>
+                  <h3>{f.title}</h3>
+                  <p>{f.desc}</p>
+                </div>
               </div>
             ))}
           </div>
