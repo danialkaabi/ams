@@ -164,11 +164,19 @@ button {
 }
 
 .partner-logo {
-  height: 56px;
-  width: 140px;
   object-fit: contain;
   object-position: left center;
   margin-bottom: 18px;
+}
+
+.partner-logo-shm {
+  height: 110px;
+  width: 170px;
+}
+
+.partner-logo-adani {
+  height: 52px;
+  width: 140px;
 }
 
 .partner-strip {
@@ -193,10 +201,18 @@ button {
 }
 
 .partner-strip-logos img {
-  height: 52px;
-  width: 130px;
   object-fit: contain;
   object-position: left center;
+}
+
+.partner-strip-logos .logo-shm {
+  height: 92px;
+  width: 140px;
+}
+
+.partner-strip-logos .logo-adani {
+  height: 44px;
+  width: 130px;
 }
 
 /* ---------- Buttons ---------- */
@@ -1072,7 +1088,7 @@ footer.site-foot {
 }
 
 .foot-brand img {
-  height: 64px;
+  height: 120px;
   filter: brightness(0) invert(1);
 }
 

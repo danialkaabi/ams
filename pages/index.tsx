@@ -121,8 +121,8 @@ export default function Home() {
           <div className="partner-strip" data-reveal="3">
             <span className="mono">In Partnership With</span>
             <div className="partner-strip-logos">
-              <img src="/images/logos/shm.png" alt="Sea Horizon Offshore Marine Services (SHM)" />
-              <img src="/images/logos/adani.png" alt="Adani Group" />
+              <img src="/images/logos/shm.png" alt="Sea Horizon Offshore Marine Services (SHM)" className="logo-shm" />
+              <img src="/images/logos/adani.png" alt="Adani Group" className="logo-adani" />
             </div>
           </div>
         </div>
