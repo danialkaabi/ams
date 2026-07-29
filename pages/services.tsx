@@ -1,5 +1,19 @@
 import Layout from '@/components/Layout';
 
+const PROJECTS = [
+  {
+    ref: 'Tender GT24106900',
+    title: 'Charter of Tanker Berthing Assistance Tug & Utility Maintenance Vessel',
+    desc: 'A long-term charter with QatarEnergy to supply a tanker berthing assistance tug and a utility maintenance vessel, supporting safe tanker berthing, unberthing, and utility maintenance operations.',
+  },
+  {
+    ref: 'Tender GT24110600',
+    title: 'Provision of Marine Vessels for RLIC and MIC Ports',
+    sub: 'Part A — Provision of Marine Crafts for Ras Laffan Port',
+    desc: 'A long-term charter with QatarEnergy to provide marine craft supporting port operations at Ras Laffan Industrial City (RLIC) and Mesaieed Industrial City (MIC) — reinforcing AMS’s role in Qatar’s critical port infrastructure.',
+  },
+];
+
 const GALLERY = [
   { name: 'AMS Laffan 4', img: '/images/vessels/ams-laffan-4.jpg' },
   { name: 'AMS Najam', img: '/images/vessels/ams-najam.jpg' },
@@ -79,6 +93,34 @@ export default function Services() {
             managed with dedicated shore-based support providing seamless, safe supervision — 24
             hours, 365 days a year.
           </p>
+        </div>
+      </section>
+
+      <section className="section white">
+        <div className="wrap">
+          <div className="section-head" data-reveal="0">
+            <span className="mono">Current Engagements</span>
+            <h2>Delivering on award-winning QatarEnergy contracts</h2>
+            <p>
+              AMS has been awarded two long-term charter contracts by QatarEnergy — a direct
+              validation of our strategic joint-venture model and the foundation of our fleet
+              deployment.
+            </p>
+          </div>
+          <div className="grid-2">
+            {PROJECTS.map((p, i) => (
+              <div className="card" key={p.ref} data-reveal={String((i % 4) + 1)}>
+                <span className="project-status">Awarded · {p.ref}</span>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: p.sub ? 6 : 12 }}>{p.title}</h3>
+                {p.sub && (
+                  <p style={{ color: 'var(--maroon)', fontSize: '0.85rem', fontWeight: 600, marginBottom: 12 }}>
+                    {p.sub}
+                  </p>
+                )}
+                <p>{p.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
