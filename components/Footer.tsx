@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="foot-col">
               <h5>Registration</h5>
               <span style={{ display: 'block', color: 'rgba(255,255,255,0.68)', fontSize: '0.9rem' }}>
-                CR No. 163121 · State of Qatar
+                CR No. 211513 · State of Qatar
               </span>
             </div>
           </div>

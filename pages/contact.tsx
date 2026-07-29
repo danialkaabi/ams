@@ -46,7 +46,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="k">Registration</span>
-                  <span className="v">CR No. 163121 · State of Qatar</span>
+                  <span className="v">CR No. 211513 · State of Qatar</span>
                 </div>
               </div>
             </div>
