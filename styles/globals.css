@@ -1088,7 +1088,7 @@ footer.site-foot {
 }
 
 .foot-brand img {
-  height: 100px;
+  height: 180px;
   width: auto;
   filter: brightness(0) invert(1);
 }

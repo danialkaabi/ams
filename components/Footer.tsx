@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-top">
           <div className="foot-brand">
-            <img src="/images/logo-mark.png" alt="AMS" />
+            <img src="/images/logo.png" alt="AMS — Al Annabi Marine Services, an SHM and Adani Group Joint Venture" />
           </div>
           <div className="foot-links">
             <div className="foot-col">
