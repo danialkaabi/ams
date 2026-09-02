@@ -31,6 +31,7 @@ export function Panel({
   actions,
   children,
   flush,
+  onClose,
 }: {
   title?: string;
   note?: ReactNode;
@@ -38,14 +39,35 @@ export function Panel({
   children: ReactNode;
   /** Drop the body padding — for tables that should meet the panel edge. */
   flush?: boolean;
+  /** Optional close button handler */
+  onClose?: () => void;
 }) {
   return (
     <section className="go-panel">
-      {(title || actions) && (
+      {(title || actions || onClose) && (
         <header className="go-panel-head">
           {title && <h3>{title}</h3>}
           {note && <span className="go-panel-note">{note}</span>}
-          {actions && <div style={{ marginLeft: note ? 12 : 'auto', display: 'flex', gap: 8 }}>{actions}</div>}
+          <div style={{ marginLeft: note ? 12 : 'auto', display: 'flex', gap: 8, alignItems: 'center' }}>
+            {actions}
+            {onClose && (
+              <button
+                onClick={onClose}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  color: 'var(--text-2)',
+                  cursor: 'pointer',
+                  fontSize: 18,
+                  padding: '0 4px',
+                  lineHeight: 1,
+                }}
+                title="Close"
+              >
+                ✕
+              </button>
+            )}
+          </div>
         </header>
       )}
       {flush ? children : <div className="go-panel-body">{children}</div>}

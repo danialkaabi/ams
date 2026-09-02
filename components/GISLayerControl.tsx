@@ -15,7 +15,7 @@ type LayerSection = 'live_assets' | 'oil_gas' | 'licensing' | 'renewables' | 'ma
 
 export default function GISLayerControl({ visibility, onChange }: GISLayerControlProps) {
   const [expandedSections, setExpandedSections] = useState<Set<LayerSection>>(
-    new Set(['live_assets', 'oil_gas'])
+    new Set<LayerSection>(['live_assets', 'oil_gas'])
   );
 
   const toggleSection = (section: LayerSection) => {
@@ -55,7 +55,7 @@ export default function GISLayerControl({ visibility, onChange }: GISLayerContro
               fields_by_status: {},
               fields_by_type: {},
             });
-            setExpandedSections(new Set(['live_assets', 'oil_gas']));
+            setExpandedSections(new Set<LayerSection>(['live_assets', 'oil_gas']));
           }}
         >
           Reset
