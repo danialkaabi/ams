@@ -113,8 +113,37 @@ styles/go.css   Design system, scoped under `.go`
 docs/platform/  Design and architecture documentation
 ```
 
+## Live AIS Tracking
+
+The platform can display live vessel positions from AIS (Automatic Identification System) feeds.
+
+**Quick start (mock mode — 5 minutes, no API key):**
+```bash
+npm install
+MOCK_AIS=1 npm run ais:check    # Verify the pipeline
+npm run dev &                    # Terminal 1: start the web app
+MOCK_AIS=1 npm run ais           # Terminal 2: start the worker with simulated positions
+# Open http://localhost:3000/go/maps → positions update every 5 seconds
+```
+
+**Production setup:** See [`docs/AIS-SETUP.md`](docs/AIS-SETUP.md) for:
+- Switching to real AISStream.io feeds
+- Deploying the worker process on Railway/Render/Heroku/Fly
+- Using Upstash Redis for persistent storage
+- Troubleshooting guide
+
+**Files:**
+- `scripts/ais-worker.mjs` — Collects positions, posts to API every 5s
+- `scripts/ais-check.mjs` — Diagnostic tool (walks the entire pipeline)
+- `pages/api/positions.ts` — Position ingest & retrieval endpoint
+- `pages/api/fleet.ts` — Fleet metadata and coverage stats
+- `data/ais-live.ts` — React hooks for real-time position subscriptions
+- `Procfile` — Declares web + worker processes for deployment platforms
+
 ## Data
 
 All figures, fixtures, rates and profiles in the platform are illustrative demonstration
 data seeded in `data/go/`. Rate benchmarks are indicative — the product always says so
 on screen.
+
+For live vessel tracking, see the AIS setup guide above.
