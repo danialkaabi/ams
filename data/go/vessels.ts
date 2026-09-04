@@ -229,6 +229,7 @@ const NAME_STEMS: Record<string, string[]> = {
   mcdermott: ['DB Intrepid', 'DB Resolute', 'North Ocean 105', 'Amazon Installer'],
   'icbc-leasing': ['Sino Offshore 12', 'Sino Offshore 18', 'Sino Offshore 24', 'Sino Offshore 31', 'Sino Offshore 37'],
   macquarie: ['Nordic Provider', 'Nordic Sentinel', 'Nordic Endeavour', 'Nordic Vantage'],
+  'ades-international': ['Aquamarine Driller', 'Azure Driller', 'Aquamarine Explorer', 'Azure Explorer'],
 };
 
 type Mix = { category: VesselCategory; subType: VesselSubType; sizes: SizeClass[] };
@@ -267,6 +268,7 @@ const OWNER_REGIONS: Record<string, Region[]> = {
   mcdermott: ['Middle East Gulf', 'Gulf of Mexico'],
   'icbc-leasing': ['Middle East Gulf', 'South East Asia'],
   macquarie: ['North Sea', 'Gulf of Mexico', 'Middle East Gulf'],
+  'ades-international': ['Middle East Gulf'],
 };
 
 const REGION_CENTRES: Record<Region, [number, number]> = {
