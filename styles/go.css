@@ -183,25 +183,25 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  background: white !important;
-  border: 1px solid #ddd !important;
+  background: #8B3A3A !important;
+  border: 1px solid #6B2A2A !important;
   border-radius: 8px;
   padding: 8px 12px;
-  color: #999 !important;
+  color: #E0E0E0 !important;
   font-size: 13px;
   transition: border-color 0.18s var(--ease);
 }
 
-.go-search:hover { border-color: #ddd; }
+.go-search:hover { border-color: #6B2A2A; }
 .go-search kbd {
   margin-left: auto;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #6B2A2A;
   border-radius: 4px;
   padding: 2px 5px;
-  color: #999;
-  background: #f5f5f5;
+  color: #B8B8B8;
+  background: #6B2A2A;
 }
 
 .go-topbar-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }

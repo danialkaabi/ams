@@ -144,10 +144,10 @@ export default function AppShell({
               <IconMenu />
             </button>
 
-            <button className="go-search" onClick={() => setCmdOpen(true)} aria-label="Search the graph" style={{ background: 'white', borderColor: '#ddd', color: '#999' }}>
+            <button className="go-search" onClick={() => setCmdOpen(true)} aria-label="Search the graph" style={{ background: '#8B3A3A', borderColor: '#6B2A2A', color: '#E0E0E0' }}>
               <IconSearch />
               Search vessel name, company, IMO, MMSI…
-              <kbd style={{ borderColor: '#ddd', color: '#999', background: '#f5f5f5' }}>⌘K</kbd>
+              <kbd style={{ borderColor: '#6B2A2A', color: '#B8B8B8', background: '#6B2A2A' }}>⌘K</kbd>
             </button>
 
             <div className="go-topbar-right">
